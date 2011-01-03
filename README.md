@@ -8,7 +8,7 @@ You will have to do this manually for every run. Go to the runs tab on the Nike+
 
 http://nikerunning.nike.com/nikeos/p/nikeplus/en_US/plus/#//runs/detail/__&lt;user-id&gt;__/__&lt;run-id&gt;__/all/allRuns/
 
-Where the user-id and run-id are numerical. Use wget or curl to retrieve the following URL to a file (replacing the run-id part with your run-id):
+Where the _user-id_ and _run-id_ are numerical. Use wget or curl to retrieve the following URL to a file (replacing the run-id part with your run-id):
 
 http://nikerunning.nike.com/nikeplus/v2/services/app/get\_gps\_detail.jsp?\_plus=true&id=__&lt;run-id&gt;__&format=json
 
@@ -24,4 +24,4 @@ This is a very simple (and ugly) script that produces a fairly basic GPX file. I
 
 # License
 
-Nike2GPX was written by Robert Kosara. I am placing it into the public domain.
+Nike2GPX was written by Robert Kosara. I am placing it in the public domain.
