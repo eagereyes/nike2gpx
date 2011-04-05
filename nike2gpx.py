@@ -24,7 +24,13 @@ route = data["plusService"]["route"]
 
 builder = TreeBuilder()
 
-gpxAttrs = { "version":"1.1", "creator":"Nike2GPX", "xmlns:xsi":"http:#www.w3.org/2001/XMLSchema-instance", "xmlns":"http:#www.topografix.com/GPX/1/1", "xsi:schemaLocation":"http:#www.topografix.com/GPX/1/1 http:#www.topografix.com/gpx/1/1/gpx.xsd" }
+gpxAttrs = {
+			"version":				"1.1",
+			"creator":				"Nike2GPX",
+			"xmlns:xsi":			"http://www.w3.org/2001/XMLSchema-instance",
+			"xmlns":				"http://www.topografix.com/GPX/1/1",
+			"xsi:schemaLocation":	"http://www.topografix.com/GPX/1/1 http://www.topografix.com/gpx/1/1/gpx.xsd"
+}
 builder.start("gpx", gpxAttrs)
 
 builder.start("metadata", {})
