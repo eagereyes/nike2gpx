@@ -1,8 +1,12 @@
-# About
+# Moved to EagerFeet.org
+
+I made this into [a website](http://eagerfeet.org) that is a tad easier to use. The code for that is [also available](https://github.com/eagereyes/eagerfeet). Original README follows below.
+
+## About
 
 The Nike+ GPS app is great when starting to run, but it's not something for the long term. One problem with switching to other programs or websites is that you will probably want to take your data with you. While there is no official way to do this, it is possible to coax the website into surrendering your data in a JSON format. This script converts that data into the [GPS Exchange Format (GPX)](http://www.topografix.com/gpx.asp), which most running websites and programs accept.
 
-# Procedure for Converting the Data
+## Procedure for Converting the Data
 
 You will have to do this manually for every run. Go to the runs tab on the Nike+ website and click on a run you want to export. In the URL bar, you will see something like this:
 
@@ -18,10 +22,10 @@ Name the file so that it ends in .json, because the script will produce a file w
 
 The resulting .gpx file can be imported to RunKeeper, etc.
 
-# Caveats
+## Caveats
 
 This is a very simple (and ugly) script that produces a fairly basic GPX file. I make no claims to the general correctness of the output, but [RunKeeper](http://runkeeper.com/) accepts the files.
 
-# License
+## License
 
 Nike2GPX was written by Robert Kosara. I am placing it in the public domain.
