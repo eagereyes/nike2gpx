@@ -1,6 +1,6 @@
 # Moved to EagerFeet.org
 
-I made this into [a website](http://eagerfeet.org) that is a tad easier to use. The code for that is [also available](https://github.com/eagereyes/eagerfeet). Original README follows below.
+I made this into a website that is a tad easier to use (long defunct, though). The code for that is [also available](https://github.com/eagereyes/eagerfeet). Original README follows below.
 
 ## About
 
